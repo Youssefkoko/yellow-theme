@@ -1,10 +1,11 @@
-[![Build Status](https://api.travis-ci.org/understrap/understrap.svg?branch=master)](https://travis-ci.org/understrap/understrap)
+
 [![Wordpress Theme Version](https://img.shields.io/badge/Version-1.0.0-green)](#) 
-[![Wordpress Theme Active Installs](https://img.shields.io/wordpress/theme/installs/understrap.svg)](https://wordpress.org/themes/understrap/) 
-[![Github Last Commit](https://img.shields.io/github/last-commit/understrap/understrap)](https://github.com/Youssefkoko/yellow-theme) 
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Youssefkoko/yellow-theme?style=for-the-badge)
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0)
 
 #### See: [Official Demo](#) | 
+<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/w/Youssefkoko/yellow-theme?style=for-the-badge">
 
 #WordPress Theme 
 
