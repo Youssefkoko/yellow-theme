@@ -2,12 +2,11 @@ nav#main-nav{
   background-color: $secondaryGrey;
   border-top: 2px solid $secondaryGreyLight;
   border-bottom: 2px solid $secondaryGreyLight;
+  z-index: 9999;
   #navbarNavDropdown{
     padding-top: 3rem;
-  }
-  @media (min-width: $xl){
-    #navbarNavDropdown{
-      padding-top: 1rem;
+    @media (min-width: $xl){
+        padding-top: 1rem;
     }
   }
   .search-input-holder{

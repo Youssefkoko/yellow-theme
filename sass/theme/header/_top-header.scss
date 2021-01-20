@@ -28,14 +28,27 @@
     .mobile-menu-dropdown{
       display: block;  
       .navbar-toggler{
-        background-color: $white;
+        background-color: $transparent;
+        font-size: 2rem;
+        color: $white;
+        font-weight: bold;
+        color: $white;  
+        padding: 1rem;
+        border: none;
+        border-radius: none;
+        &:hover{
+          border-bottom: 1px solid $white;
+        }
+        span{
+          margin-right: 0.8rem;
+          text-transform: uppercase;
+        }
+      }
+      @media (min-width: $sm){  
+          display: none;
       }
     }
-    @media (min-width: $sm){
-      .mobile-menu-dropdown{
-        display: none;
-      }
-    }
+    
     .top-header-contact-email{
       display: none;
     }
@@ -44,8 +57,10 @@
       border: 0.1rem solid $primary;
       padding: 1rem 1.5rem;
       border-radius: 2.2rem;
-      margin-left: 1rem;
       font-size: 1.8rem;
+      @media (min-width: $lg){
+        margin-left: 1rem;
+      }
       i{
         color: $primary;
         margin-right: 1rem;
