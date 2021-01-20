@@ -1,0 +1,24 @@
+.home-hero-banner-top{
+  margin-top: 10rem;
+  .skip-bin-info-holder{
+  border: 0.4rem dashed $primary;
+  border-radius: 2rem;
+  background-color: $secondaryLight;
+  padding: 3rem 0rem 3rem 1rem;
+  @media (min-width: $md){
+    padding: 3rem;
+  }
+  .title{
+    font-size: 3.8rem;
+    font-weight: bold;
+    .fa{
+      color: $primary;
+    }
+  }
+  .desc{
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: $primary;
+  }
+  }
+}
