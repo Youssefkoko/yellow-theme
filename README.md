@@ -1,14 +1,14 @@
 [![Build Status](https://api.travis-ci.org/understrap/understrap.svg?branch=master)](https://travis-ci.org/understrap/understrap)
-[![Wordpress Theme Version](https://img.shields.io/wordpress/theme/v/understrap.svg)](https://wordpress.org/themes/understrap) 
+[![Wordpress Theme Version](1.0.0)](https://wordpress.org/themes/understrap) 
 [![Wordpress Theme Active Installs](https://img.shields.io/wordpress/theme/installs/understrap.svg)](https://wordpress.org/themes/understrap/) 
-[![Github Last Commit](https://img.shields.io/github/last-commit/understrap/understrap)](https://github.com/understrap/understrap/commits/master) 
+[![Github Last Commit](https://img.shields.io/github/last-commit/understrap/understrap)](https://github.com/Youssefkoko/yellow-theme) 
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0)
 
-#### See: [Official Demo](https://understrap.com/understrap) | Read: [Official Docs Page](https://understrap.github.io/)
+#### See: [Official Demo](#) | 
 
-# UnderStrap WordPress Theme Framework
+#WordPress Theme 
 
-Website: [https://understrap.com](https://understrap.com)
+Website: [#](#)
 
 Child Theme Project: [https://github.com/understrap/understrap-child](https://github.com/understrap/understrap-child)
 
@@ -16,7 +16,7 @@ OverStrap Child Themes: [https://understrap.com/overstrap/](https://understrap.c
 
 ## About
 
-I’m a huge fan of Underscores, Bootstrap, and Sass. Why not combine these into a solid WordPress Theme Framework? That’s what UnderStrap is. You can use it as a starter theme and build your own theme on top of it. Or you can use it as a parent theme and create your own child theme for UnderStrap.
+I’m a huge fan of Underscores, Bootstrap, and Sass. I combine these into a solid WordPress Theme ? That’s what UnderStrap is. You can use it as a starter theme and build your own theme on top of it. Or you can use it as a parent theme and create your own child theme for UnderStrap.
 
 ## License
 UnderStrap WordPress Theme, Copyright 2013-2018 Holger Koenemann
