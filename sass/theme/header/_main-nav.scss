@@ -1,0 +1,101 @@
+nav#main-nav{
+  background-color: $secondaryGrey;
+  border-top: 2px solid $secondaryGreyLight;
+  border-bottom: 2px solid $secondaryGreyLight;
+  #navbarNavDropdown{
+    padding-top: 3rem;
+  }
+  @media (min-width: $xl){
+    #navbarNavDropdown{
+      padding-top: 1rem;
+    }
+  }
+  .search-input-holder{
+    border: 0.4rem solid $primary;
+    background-color: $white;
+    padding: 0rem 1.2rem;
+    width: 100%;
+    border-radius: 1.5rem;
+    margin-top: -3rem;
+    margin-bottom: -3rem;
+    @media (min-width: $sm){
+      width: 30rem;
+    }
+    .title{
+      font-size: 2rem;
+      font-weight: 300;
+      padding: 1.5rem 0rem;
+      margin-right: 1.5rem;
+      color: $secondary;
+    }
+    input[type="text"]{
+      flex: 1;
+      padding: 1.5rem 0rem;
+      border: none;
+      outline: none;
+      &::placeholder{
+        color: $secondary;
+        font-weight: bold;
+        font-size: 2rem;
+      }
+    }
+  }
+
+  // Button Toggle
+  .mobile-menu-dropdown{
+    display: none;
+    @media (min-width: $sm){
+      display: block;
+    }
+    button{
+      font-weight: bold;
+      color: $white;
+      padding:1rem;
+      border: none;
+      border-radius: none;
+      &:hover{
+        background-color: $secondary;
+      }
+      span{
+        margin-right: 0.5rem;
+      }
+    }
+  }
+
+  // DropDown nav links
+  #navbarNavDropdown{
+    .dropdown{
+      &:hover{
+
+      }
+    }
+    li{
+      a{
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-right: 1rem;
+        padding-left: 2rem;
+        font-size: 1.5rem;
+      }
+    &.current-menu-item{
+      a{
+        color: $primary;
+      }
+    }
+    }
+    .dropdown-menu{
+      background-color: $secondary;
+      li{
+        a{
+          color: $white;
+        }
+        &:hover {
+          a {
+            color: $primary
+          }
+        }
+      }
+      
+    }
+  }
+}

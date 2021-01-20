@@ -1,0 +1,60 @@
+.top-header{
+  background-color: $secondary;
+  height: auto;
+  padding-bottom: 4rem;
+  padding-top: 3rem;
+  @media (min-width: $sm){
+    height: 115px;
+  }
+  // logo center
+  .navbar-brand-col{
+    text-align: center;
+  }
+  @media (min-width: $sm){
+    // logo center
+    .navbar-brand-col{
+      text-align: start;
+    }
+  }
+  
+  .top-header-contact{
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    @media (min-width: $sm){
+        margin-top: 0rem;
+      
+    }
+    .mobile-menu-dropdown{
+      display: block;  
+      .navbar-toggler{
+        background-color: $white;
+      }
+    }
+    @media (min-width: $sm){
+      .mobile-menu-dropdown{
+        display: none;
+      }
+    }
+    .top-header-contact-email{
+      display: none;
+    }
+    a{
+      color: $white;
+      border: 0.1rem solid $primary;
+      padding: 1rem 1.5rem;
+      border-radius: 2.2rem;
+      margin-left: 1rem;
+      font-size: 1.8rem;
+      i{
+        color: $primary;
+        margin-right: 1rem;
+      }
+    }
+    @media (min-width: $lg){
+      .top-header-contact-email{
+        display: inline-block;
+      }
+    }
+  }
+}
