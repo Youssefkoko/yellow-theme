@@ -47,15 +47,17 @@ $container = get_theme_mod( 'understrap_container_type' );
 
               <?php else : ?>
 
-              <a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>"
-                itemprop="url"><?php bloginfo( 'name' ); ?>
+
+              <a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" itemprop="url">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg">
               </a>
 
               <?php endif; ?>
 
               <?php
 							} else {
-								the_custom_logo();
+                the_custom_logo();?>
+              <?php
 							}
 							?>
               <!-- end custom logo -->
