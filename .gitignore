@@ -23,10 +23,10 @@
 !.browserslist
 !.editorconfig
 !.gitattributes
-!.gitignore
-!.jscsrc
-!.jshintignore
-!.travis.yml
+.gitignore
+.jscsrc
+.jshintignore
+.travis.yml
 
 # Ignore all files with .lock extentions
 *.lock

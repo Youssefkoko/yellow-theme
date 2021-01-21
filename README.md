@@ -1,7 +1,5 @@
-
 [![Wordpress Theme Version](https://img.shields.io/badge/Version-1.0.0-green)](#) 
-
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Youssefkoko/yellow-theme?style=for-the-badge)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Youssefkoko/yellow-theme?style=for-the-badge)
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0)
 
 #### See: [Official Demo](#) | 
@@ -39,7 +37,7 @@ See [changelog](CHANGELOG.md)
 - [Child Theme]ready.
 - Translation ready.
 
-## Starter Theme + HTML Framework = WordPress Theme Framework
+## I Use Starter Theme + HTML Framework = WordPress Theme Framework
 
 The _s theme is a good starting point to develop a WordPress theme. But it is “just” a raw starter theme. That means it outputs all the WordPress stuff correctly but without any layout or design.
 Why not add a well known and supported layout framework to have a solid, clean and responsive foundation? That’s where Bootstrap comes in.
@@ -52,3 +50,5 @@ and of course
 - jQuery: https://jquery.org | (Code licensed under MIT)
 - WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstrap-navwalker | GNU GPL
 - Bootstrap Gallery Script based on Roots Sage Gallery: https://github.com/roots/sage/blob/5b9786b8ceecfe717db55666efe5bcf0c9e1801c/lib/gallery.php
+
+
