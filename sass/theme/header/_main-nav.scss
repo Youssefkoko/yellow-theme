@@ -2,8 +2,9 @@ nav#main-nav{
   background-color: $secondaryGrey;
   border-top: 2px solid $secondaryGreyLight;
   border-bottom: 2px solid $secondaryGreyLight;
-  z-index: 9999;
   #navbarNavDropdown{
+    position: relative;
+    z-index: 999999;
     padding-top: 3rem;
     @media (min-width: $xl){
         padding-top: 1rem;
