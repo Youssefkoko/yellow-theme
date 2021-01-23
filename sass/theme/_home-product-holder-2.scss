@@ -1,0 +1,112 @@
+.home-product-holder-2{
+  margin-top: 8rem;
+  h2{
+    font-size: 2.2rem;
+    font-weight: bold;
+    @media (min-width: $md){
+      font-size: 3.4rem;
+    }
+    @media (min-width: $xl){
+      font-size: 4.4rem;
+    }
+    i{
+      font-size: 4rem;
+    }
+  }
+  .home-products{
+    position: relative;
+    border-radius: 2rem;
+    height: 80rem;
+    @media (min-width: $xs){ //318
+          height: 80rem;
+        }    
+    @media (min-width: $sm){ //576
+          height: 70rem;
+        }    
+    @media (min-width: $md){
+          height: 48rem;
+
+        }    
+    @media (min-width: $lg){
+          height: 56rem;
+        }    
+    @media (min-width: $xl){
+          height: auto;
+        }    
+    overflow: hidden;
+    .home-product{
+      
+      img{
+        object-fit: contain;
+      }
+      .title{
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 1.5rem;
+      }
+      
+      ul {
+        li{
+        font-size: 1.5rem;
+        &:before{
+          content:"\f0da";
+          color: $primary;
+          display: inline-block;
+          font-family: FontAwesome;
+          margin-right: 0.6rem;
+          
+        }
+        
+        }
+      }
+      .home-product-circle{
+        .circle{
+          width: 16rem;
+          height: 16rem;
+          // margin-left: 1rem;
+          background-color: $primary;
+          border-radius: 50%;
+          // position: relative;
+          .content-holder{
+            padding: 1rem;
+            display: wrap;
+            font-size: 1.6rem;
+            line-height: 1.8;
+            text-align: center;
+          }
+          .icon-img{
+            // margin-top: 1.5rem;
+            img{
+              object-fit: contain;
+            }
+          }
+        }
+      }
+    }
+    .abs-holder-button{
+      position: absolute;
+      bottom: 0;
+      left:2.5%;
+      padding: 1rem 2rem;
+      color: $white;
+      background-color: $secondary;
+      border-top-left-radius: 1.5rem;
+      border-top-right-radius: 1.5rem;
+      font-size: 2rem;
+      @media (min-width: $xs){
+        left: 13%;
+      } 
+      @media (min-width: $sm){
+        left: 25%;
+      } 
+      @media (min-width: $md){
+        font-size: 3rem;
+        // left:25%;
+      }
+      @media (min-width: $lg){
+        font-size: 3rem;
+        left:30%;
+      }
+    }
+  }
+}
