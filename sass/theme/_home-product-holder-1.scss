@@ -1,0 +1,92 @@
+.home-products-info{
+  height: 110rem;
+  background-color: $primary;
+  padding-top: 20rem;
+  // padding-bottom: 20rem;
+  margin-top: 10rem;
+  @media (min-width:$sm){
+    margin-top: 0rem;
+  }
+  .home-special-offer{
+    background-color: $secondary;
+    border-radius: 1rem;
+    display: flex;
+    padding: 5rem 0;
+    @media (min-width:$sm){
+      padding: 2rem;
+    }
+    @media (min-width:$md){
+      padding: 5rem;
+
+    }
+    .discount-circle{
+      height: 16rem;
+      min-width: 16rem;
+      border-radius: 50%;
+      background-color: $white;
+      color: $secondary;
+      line-height: 4rem;
+      @media (min-width: $md){
+        height: 20rem;
+        min-width: 20rem;
+      }
+      @media (min-width: $lg){
+        line-height: 6rem;
+        height: 26rem;
+        min-width: 26rem;
+      }
+      .save{
+        font-size: 2rem;
+        font-weight: 900;
+        margin-top: -2rem;
+        @media (min-width: $md){
+          font-size: 2.8rem;
+        }
+        @media (min-width: $lg){
+          font-size: 3.8rem;
+        }
+      }
+      .percent{
+        font-size: 5rem;
+        font-weight: 900;
+        @media (min-width: $md){
+          font-size: 7.8rem;
+        }
+        @media (min-width: $lg){
+          font-size: 8.8rem;
+        }
+      }
+    }
+    .entry-content{
+      padding-top: 3rem;
+      @media (min-width: $lg){
+        padding: 3rem; 
+      }
+      .title{
+        color: $primary;
+        font-weight: bold;
+        font-size: 3.4rem;
+        @media (min-width: $md){
+          font-size:4.4rem;
+
+        }
+        @media (min-width: $lg){
+          font-size:6rem;
+        }
+
+      }
+      .desc{
+        font-size: 1.8rem;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+        font-weight: 300;
+        padding-left: 3rem;
+      }
+      .btn{
+        font-size: 2rem;
+        border-radius: 5rem;
+        padding: 1rem 2.2rem;
+      }
+    }
+  }
+}
